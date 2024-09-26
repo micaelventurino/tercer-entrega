@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="../img/zapatillas-adidas.jpg" type="mage/jpeg">
 
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+
 </head>
 <body>
 
@@ -14,25 +17,24 @@
         <a href="./carrito.html"class="menu-header">Carrito <span id="cuenta-carrito">0</span></a>
     </header>
 
-    <main>
 
-        <p id="carrito-vacio">Ups! El carrito está vacío, <a href="./index.html">elige algunos productos</a></p>
-		
-        <section id="cart-container"></section>
-        
-        <section id="totales">
-            <p>Total unidades: <span id="cantidad">0</span></p>
-            <p>Total precio: $<span id="precio">0</span></p>
-            <button disabled>Comprar</button>
-            <button id="reiniciar">Reiniciar</button>
-        </section>
-
+        <main>
+            <p id="carrito-vacio">Ups! El carrito está vacío, <a href="../index.html">elige algunos productos</a></p>
+            <section id="cart-container">
+            </section>
+      <section id="totales">
+        <p>Total unidades: <span id="cantidad">0</span></p>
+        <p>Total precio: $<span id="precio">0</span></p>
+        <button disabled>Comprar</button>
+        <button id="reiniciar">Reiniciar</button>
+      </section>
     </main>
+
 
     <footer></footer>
 
   <script src="./js/main.js"></script>
-  <script src="../js/zapatillas.js"></script>
+  <script src="../js/cart.js"></script>
 
 </body>
 </html>
