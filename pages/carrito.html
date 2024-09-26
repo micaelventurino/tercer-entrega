@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+    <header>
+        <a href="../index.html" class="menu-header">Inicio</a>
+        <a href="./carrito.html"class="menu-header">Carrito <span id="cuenta-carrito">0</span></a>
+    </header>
+
+    <main>
+
+        <p id="carrito-vacio">Ups! El carrito está vacío, <a href="./index.html">elige algunos productos</a></p>
+		
+        <section id="cart-container"></section>
+        
+        <section id="totales">
+            <p>Total unidades: <span id="cantidad">0</span></p>
+            <p>Total precio: $<span id="precio">0</span></p>
+            <button disabled>Comprar</button>
+            <button id="reiniciar">Reiniciar</button>
+        </section>
+
+    </main>
+
+    <footer></footer>
+
+  <script src="./js/main.js"></script>
+  <script src="../js/zapatillas.js"></script>
+
+</body>
+</html>

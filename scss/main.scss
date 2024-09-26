@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+// HEADER
+a:hover{
+    color: red;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 0.5rem;
+    background-color: black;
+}
+
+.menu-header{
+color: green;
+text-decoration: none;
+}
+
+#cuenta-carrito{
+    background-color: orange;
+    border-radius: 100%;
+    display: inline-block;
+    width: 1rem;
+    text-align: center;
+}
+
+// MAIN
+#productos-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+    max-width: 900px; 
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+
+.tarjeta-producto{   
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 520px; 
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: black;
+    color: orangered;
+}
+
+.tarjeta-producto img{
+    width: 100%;
+}
+
+button{
+    background-color: orangered;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: unset;
+    cursor: pointer;
+}
+
+
+// CSS CARRITO
+
+.prueba{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.prueba img{
+    height: 100px;
+    aspect-ratio: 1.5;
+}
+
+.prueba h2{
+    width: 130px;
+}
