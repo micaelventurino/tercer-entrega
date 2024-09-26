@@ -4,25 +4,25 @@ const zapatillas = [
     {
         id: 1,
         titulo: "Zapatillas Nike",
-        img: "../img/zapatillas-nike.jpg",
+        img: "/img/zapatillas-nike.jpg",
         precio: 75000,    
     },
     {
         id: 2,
         titulo: "Zapatillas NEW BALANCE",
-        img: "../img/zapatillas-new.jpg",
+        img: "/img/zapatillas-new.jpg",
         precio: 67000,    
     },
     {
         id: 3,
         titulo: "Zapatillas Adidas",
-        img: "../img/zapatillas-adidas.jpg",
+        img: "/img/zapatillas-adidas.jpg",
         precio: 62000,    
     },
     {
         id: 4,
         titulo: "Zapatillas Puma",
-        img: "../img/zapatillas-puma.jpg",
+        img: "/img/zapatillas-puma.jpg",
         precio: 55000,    
     }
     ]

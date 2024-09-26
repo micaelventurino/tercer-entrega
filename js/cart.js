@@ -15,7 +15,7 @@ function crearTarjetasProductosCarrito() {
       nuevaZapatilla.classList.add = ("tarjeta-producto");
       nuevaZapatilla.innerHTML = `
     <img src=${producto.img}>
-    <h2>${producto.nombre}</h2>
+    <h2>${producto.titulo}</h2>
     <span>$${producto.precio}</span>
     <div>
     <button>-</button>
